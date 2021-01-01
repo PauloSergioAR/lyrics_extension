@@ -1,0 +1,11 @@
+{
+  "name": "Lyrics Finder",
+  "version": "1.0",
+  "description": "Automaticaly looks lyrics up for youtube music videos",
+  "background": {
+    "scripts": ["background.js", "./src/handleCommand.js"],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "permissions": ["activeTab", "tabs", "contextMenus"]
+}
